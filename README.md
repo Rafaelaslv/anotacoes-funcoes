@@ -45,6 +45,45 @@ Esse trecho de código tem um total de 30 linhas.
 
 
 
+BLOCOS CUJA FUNÇÃO CHAMA-SE SOMA:
+
+def soma():
+   print("Imprimindo função na tela")
+
+PARA CHAMAR ESSA FUNÇÃO NA TELA:
+
+soma()
+
+Essa função não tem um retorno porque dentro do código da própria função já estamos imprimindo um conteúdo, então não preciso fazer um comando de impressão quando for chamar a função.
+
+SE EU NÃO TENHO UM COMANDO DE PRINT NA TELA, EU PRECISO APONTAR UM RETORNO.
+
+def soma():
+    txt = "Imprimindo resultado com variável"
+    return txt
+
+print(soma())
+
+TEMOS O ARQUIVO DE FUNÇÃO POR FORA E O CÓDIGO FONTE.
+
+NO SITE DA RECEITA FEDERAL, O USUÁRIO DIGITARÁ O CPF NO CÓDIGO FONTE, O NÚMERO DIGITADO SERÁ ENVIADO PARA O ARQUIVO DE FUNÇÃO E O ARQUIVO DE FUNÇÃO IRÁ VALIDAR ESSE CPF, OU O CPF ESTÁ VÁLIDO OU ESTÁ INVÁLIDO.
+
+ESSA INFORMAÇÃO DE QUE SE O CPF ESTÁ VÁLIDO OU INVÁLIDO VOLTA PARA A TELA DO CÓDIGO FONTE NO MOMENTO EM QUE DAMOS UM RETORNO (return).
+
+A FUNÇÃO DO RETORNO É ABASTECER O MEU ARQUIVO/TELA/ALGORITMO COM ALGUM DADO/INFORMAÇÃO QUE EU QUEIRA BASEADO NA EXECUÇÃO DA MINHA FUNÇÃO.
+
+---
+
+#### FUNÇÕES RECURSIVAS
+
+
+
+
+
+
+
+
+
 
 
 
