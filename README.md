@@ -21,7 +21,21 @@ PARA CHAMAR UAM FUNÇÃO É NECESSÁRIO O USO DA PALAVRA-CHAVE def (def de defin
 
 EM SEGUIDA DEFINIMOS O NOME DA FUNÇÃO
 
-04:00  
+---
+
+#### A LÓGICA POR TRÁS DAS FUNÇÕES:
+
+Você precisa escrever um código/algoritmo em Python e precisa recorrentemente escrever esse mesmo código em vários arquivos/páginas/telas diferentes.
+
+E você tem uma mesma estrutura sendo repetida várias vezes e temos 2 formas mais práticas e inteligentes de fazer essa estrutura:
+
+PRIMEIRA: FUNÇÕES
+SEGUNDA: ORIENTAÇÃO A OBJETOS
+
+Você está desenvolvendo um site e esse site tem uma tela, nessa tela tem um trecho de código em Python, e esse trecho de código executa uma função no escopo da página.
+
+Esse trecho de código tem um total de 30 linhas.
+
 
 
 
