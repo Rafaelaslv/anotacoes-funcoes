@@ -1,7 +1,12 @@
-# anotacoes-funcoes
+# Funções
+
 Este repositório conterá minhas anotações sobre funções.
 
 ---
+
+Funções nada mais são que o encapsulamento (ou empacotamento) de um bloco de ações que executa determinada tarefa mediante sua invocação. 
+
+Uma das características da programação é a possibilidade de desenvolver aplicações replicáveis com códigos otimizados e estruturas que possam ser reaproveitadas ao longo do processo de execução de um algoritmo. O motivo disso é bem simples: aumenta-se a coesão e se diminui o acoplamento entre os módulos e partições de um código.
 
 Função pode ser um arquivo separado puxado para dentro do seu arquivo ou um bloco dentro do mesmo arquivo puxado em alguma outra parte dele.
 
