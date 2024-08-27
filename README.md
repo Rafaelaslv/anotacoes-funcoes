@@ -34,10 +34,20 @@ E para ficar mais prático, trabalharemos com o bloco de funções dentro da nos
 
 Uma função em Python é caracterizada pela palavra def, seguida de um nome e um par de parênteses: def nome_funcao(). Os nomes das funções podem ter a estrutura desejada, mas eles devem seguir os mesmos princípios dos nomes de variáveis, ou seja, sem espaços, sem caracteres especiais e sem iniciar com números.
 
-def soma():
-    a = 2 + 3;
+def soma():          (ESCOPO DA FUNÇÃO)
+    a = 2 + 3;       (ESCOPO DA FUNÇÃO)
 
-print(soma())
+print(soma())        (INVOCAÇÃO DA FUNÇÃO)
+
+Ao executar este trecho de código, todavia, o resultado “none” é apresentado no console de nossa IDE. Isso ocorre porque toda função, por ser um pacote fechado, ela guarda para si o resultado de seu processamento, ou seja, ainda que a função “soma” tenha realizado de fato uma soma e atribuído o resultado a variável “a”, este resultado ficou “preso” dentro do escopo da própria função, não retornando o número 5.
+
+Assim, sempre que uma função precisar de fato retornar algum valor ao trecho que a invoca, é necessário utilizar o comando return como última instrução da função. Atente-se a este detalhe: o return precisará sempre ser a última instrução, pois tanto o Python quanto outras linguagens simplesmente irão ignorar qualquer código que for alocado após a palavra “return”.
+
+def soma():        
+    a = 2 + 3;       
+    return a
+
+print(soma()) 
 
 TODA FUNÇÃO TEM UMA CARACTERÍSTICA:
 
