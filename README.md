@@ -49,6 +49,31 @@ def soma():
 
 print(soma()) 
 
+---
+
+Obviamente que ter uma função com valores fixos não torna o código tão atrativo e sequer escalável. Espera-se que uma função seja capaz de interagir com o usuário, recebendo valores dinâmicos e utilizando este valores para executar ações.
+
+Para isso, existem os conceitos de argumentos e parâmetros.
+
+Os argumentos são enviados no ato de invocação de uma função e então, são recebidos como parâmetros pela função. Entenda que um argumento e um parâmetro, na prática, são a mesma coisa, mas recebem nomes diferentes dependendo do local em que estiverem.
+
+Agora iremos analisar linha a linha para compreender em detalhes o que está sendo feito. Para fins didáticos, iniciaremos na linha 119 e depois partiremos para a linha 115.
+
+Linha 119: foi disparado um comando de impressão na tela. Este comando invoca a função “soma”, passando dois argumentos numéricos: 2 e 3;
+Linha 115: a função soma é definida e recebe dois parâmetros (argumentos enviados). Esses parâmetros são armazenados em “a” e “b”;
+Linha 116: Uma variável “c” é criada e recebe a soma de “a” e “b”, que são os parâmetros recebidos;
+Linha 117: A função “soma” retorna o valor da variável “c”, que por sua vez, é transferido à linha 119, responsável pela impressão do resultado na tela.
+Desta forma, uma mesma função pode executar várias somas diferentes, desde que valores diferentes sejam enviados via argumento como é apresentado na Figura 30.
+
+def soma(a, b):
+    c = a + b;
+    return c
+
+print(soma(2, 3))
+print(soma(1, 10))
+print(soma(6, 20))
+print(soma(9 , 8))
+
 TODA FUNÇÃO TEM UMA CARACTERÍSTICA:
 
 FUNÇÃO (A PALAVRA-CHAVE)
@@ -108,6 +133,26 @@ A FUNÇÃO DO RETORNO É ABASTECER O MEU ARQUIVO/TELA/ALGORITMO COM ALGUM DADO/I
 ---
 
 #### FUNÇÕES RECURSIVAS
+
+---
+
+### TÓPICOS AVANÇADOS
+
+Existem alguns tipos de estrutura de dados na computação e uma delas é a lista.
+
+A lista pode ser do tipo Pilha ou Fila. Uma pilha, como o nome já alude, empilha dados (variáveis, posições de vetor ou informações) como se fosse uma pilha de pratos. O último prato inserido é o primeiro que deve ser retirado. Já uma fila, aloca os dados de maneira sequencial, mas o primeiro elemento que entra é também o primeiro a sair.
+
+### Leitura complementar
+
+“Estrutura de Dados em C”.
+
+ Embora seja uma linguagem pesada, a C é perfeita para se compreender a estrutura de dados de forma profunda.
+
+ ---
+
+ ### CÓDIGOS UTILIZADOS NA DISCIPLINA
+
+ https://github.com/FaculdadeDescomplica/Python
 
 
 
