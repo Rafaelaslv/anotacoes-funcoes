@@ -134,6 +134,8 @@ A FUNÇÃO DO RETORNO É ABASTECER O MEU ARQUIVO/TELA/ALGORITMO COM ALGUM DADO/I
 
 #### FUNÇÕES RECURSIVAS
 
+Na função recursiva, chamamos a função dentro da própria função, de forma que conseguimos deixar o código muito mais compacto e mais otimizado.
+
 Para somar 2 números, posso criar a variável C e fazer com que ele receba a soma de a + b. Porém a minha função não sabe quem é o a e o b, pois não é uma variável, elas são valores que estão vindo de algum lugar como parâmetros.
 
 Então como essa função soma irá funcionar?
