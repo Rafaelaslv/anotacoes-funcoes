@@ -165,6 +165,10 @@ print(soma(4,9,8))
 
 ---
 
+### EXEMPLOS PRÁTICOS DE FUNÇÕES
+
+---
+
 ### TÓPICOS AVANÇADOS
 
 Existem alguns tipos de estrutura de dados na computação e uma delas é a lista.
