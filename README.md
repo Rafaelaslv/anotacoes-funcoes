@@ -134,6 +134,33 @@ A FUNÇÃO DO RETORNO É ABASTECER O MEU ARQUIVO/TELA/ALGORITMO COM ALGUM DADO/I
 
 #### FUNÇÕES RECURSIVAS
 
+Para somar 2 números, posso criar a variável C e fazer com que ele receba a soma de a + b. Porém a minha função não sabe quem é o a e o b, pois não é uma variável, elas são valores que estão vindo de algum lugar como parâmetros.
+
+Então como essa função soma irá funcionar?
+Na hora que eu chamar a função irei passar dois valores ( a e b) e esses valores serão recebidos pela minha função na parte de cima.
+E ao serem recebidos, eles serão calculados em forma de soma e atribuídos a minha variável c.
+
+E isso na prática facilitará muito o processo de desenvolvimento, pois sempre que você precisar realizar algum tipo de cálculo você não precisará criar toda essa estrutura, você irá apenas chamar a função, passar os números que você deseja somar e a própria estruturá fará o cálculo por você.
+
+def soma(a, b):
+    c = a + b
+    return c
+
+print(soma(4,9))
+
+---
+
+PARA VERIFICAR SE A VARÍAVEL C É PAR:
+
+def soma(a,b)
+    c = a + b
+    if c % 2 == 0:
+       return "Par"
+    else:
+       return "Ímpar"
+
+print(soma(4,9,8))
+
 ---
 
 ### TÓPICOS AVANÇADOS
