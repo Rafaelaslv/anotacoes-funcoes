@@ -173,7 +173,10 @@ Representação de um fatorial: 5! = 5 * 4 * 3 * 2 * 1 = 120
 
 E conseguimos fazer validação de CPF utilizando o cálculo fatorial.
 
-FAZENDO UMA FUNÇÃO RECURSIVA UTILIZANDO CÁLCULO FATORIAL:
+FAZENDO UMA FUNÇÃO RECURSIVA QUE RESOLVA O CÁLCULO FATORIAL:
+
+O PROBLEMA DA FUNÇÃO RECURSIVA É QUE ELA FAZ DOIS CAMINHOS
+
 
 ---
 
