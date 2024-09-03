@@ -167,6 +167,14 @@ print(soma(4,9,8))
 
 ### EXEMPLOS PRÁTICOS DE FUNÇÕES
 
+O cálculo fatorial faz a multiplicação de um número com o seu antecessor até chegar no número 1.
+
+Representação de um fatorial: 5! = 5 * 4 * 3 * 2 * 1 = 120
+
+E conseguimos fazer validação de CPF utilizando o cálculo fatorial.
+
+FAZENDO UMA FUNÇÃO RECURSIVA UTILIZANDO CÁLCULO FATORIAL:
+
 ---
 
 ### TÓPICOS AVANÇADOS
