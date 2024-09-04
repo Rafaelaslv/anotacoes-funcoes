@@ -192,6 +192,12 @@ Há informações extras disponíveis na documentação oficial do Python no sit
 
 ---
 
+### TESTANDO FUNÇÕES
+
+CHAMAR OUTRAS FUNÇÕES DENTRO DA FUNÇÃO: FUNÇÃO RECURSIVA
+
+CHAMAR UMA OUTRA FUNÇÃO QUE NÃO ESTÁ CHAMANDO ELA MESMA (FUNÇÃO EXTERNA)
+
 ### TÓPICOS AVANÇADOS
 
 Existem alguns tipos de estrutura de dados na computação e uma delas é a lista.
