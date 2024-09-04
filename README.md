@@ -186,6 +186,12 @@ print(fatorial(5))
 
 ---
 
+### FUNÇÕES NATIVAS
+
+Há informações extras disponíveis na documentação oficial do Python no site do Python.
+
+---
+
 ### TÓPICOS AVANÇADOS
 
 Existem alguns tipos de estrutura de dados na computação e uma delas é a lista.
