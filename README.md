@@ -175,8 +175,14 @@ E conseguimos fazer validação de CPF utilizando o cálculo fatorial.
 
 FAZENDO UMA FUNÇÃO RECURSIVA QUE RESOLVA O CÁLCULO FATORIAL:
 
-O PROBLEMA DA FUNÇÃO RECURSIVA É QUE ELA FAZ DOIS CAMINHOS
+---
 
+def fatorial(n):
+    if n == 1:
+         return 1
+    return n * fatorial(n - 1)
+
+print(fatorial(5))
 
 ---
 
