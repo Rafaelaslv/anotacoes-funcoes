@@ -136,6 +136,8 @@ A FUNÇÃO DO RETORNO É ABASTECER O MEU ARQUIVO/TELA/ALGORITMO COM ALGUM DADO/I
 
 Na função recursiva, chamamos a função dentro da própria função, de forma que conseguimos deixar o código muito mais compacto e mais otimizado.
 
+Uma função recursiva segue os mesmos princípios de uma função não-recursiva, porém com uma característica peculiar: ela chama a ela mesma dentro de seu próprio escopo, ou seja, ela executa a si própria até chegar atingir o que chamamos de “case base”. Este caso base é o ponto que definimos como limite para que a função cesse sua execução e então retorne os resultados.
+
 Para somar 2 números, posso criar a variável C e fazer com que ele receba a soma de a + b. Porém a minha função não sabe quem é o a e o b, pois não é uma variável, elas são valores que estão vindo de algum lugar como parâmetros.
 
 Então como essa função soma irá funcionar?
@@ -167,7 +169,7 @@ print(soma(4,9,8))
 
 ### EXEMPLOS PRÁTICOS DE FUNÇÕES
 
-O cálculo fatorial faz a multiplicação de um número com o seu antecessor até chegar no número 1.
+Como base para estudos, iremos utilizar uma função recursiva para fazer um algoritmo de fatorial. Um número fatorial, na matemática, é representado por n!, em que n equivale a um número qualquer multiplicado por seus antecessores, por exemplo:
 
 Representação de um fatorial: 5! = 5 * 4 * 3 * 2 * 1 = 120
 
@@ -177,6 +179,8 @@ FAZENDO UMA FUNÇÃO RECURSIVA QUE RESOLVA O CÁLCULO FATORIAL:
 
 ---
 
+É possível escrever esta instrução utilizando uma função recursiva. Existem outras formas de fazer isso também (uma delas é com laço de repetição) mas faremos com funções para que consigamos aplicar o conhecimento aprendido de forma prática.
+
 def fatorial(n):
     if n == 1:
          return 1
@@ -184,7 +188,22 @@ def fatorial(n):
 
 print(fatorial(5))
 
+Vamos detalhar a execução de cada linha, iniciando pela linha 129 e em seguida partindo para a linha 124:
+
+Linha 129: Imprime-se na tela o resultado advindo da função fatorial, a qual recebe como argumento o número 5;
+Linha 124: A função fatorial é definida e recebe-se um parâmetro n que, no caso, equivale ao número 5, enviado como argumento;
+Linha 125: Define-se o caso base, ou seja, o ponto em que a função deve parar de ser executada, evitando um loop infinito. Neste caso, quando o valor de n for igual a 1, a função chega ao seu caso base e retorna o valor 1 (linha 126);
+Linha 127: É onde a mágica de fato acontece. O retorno da função será uma nova chamada para a mesma função, porém com argumentos diferentes: passa-se o valor n-1, ou seja, o valor 4;
+Linha 124: o valor 4 é recebido e como ele não é igual a 1 (linha 125), ele parte para a linha 127, que invoca novamente a função, passando o valor n-1, ou seja, 3;
+Isso ocorre de forma sequencial até que o valor de n seja igual a 1, recaindo então sobre a linha 125, que é o caso base.
+
+Funções recursivas tendem a ser bastante céleres, mas dependendo do valor de entrada elas podem demorar consideravelmente para finalizarem o ciclo de execução, desta forma, o ideal é analisar a complexidade de algoritmos para avaliar se uma função recursiva é a melhor opção dentro do algoritmo que você estiver desenvolvendo.
+
 ---
+
+### EXEMPLOS PRÁTICOS DE FUNÇÕES INSERIDS PELO USUÁRIO
+
+
 
 ### FUNÇÕES NATIVAS
 
