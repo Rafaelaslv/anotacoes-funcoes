@@ -203,15 +203,35 @@ Funções recursivas tendem a ser bastante céleres, mas dependendo do valor de 
 
 ### EXEMPLOS PRÁTICOS DE FUNÇÕES INSERIDS PELO USUÁRIO
 
+Com a inserção de um input (utilizando o casting de Inteiro), o usuário consegue inserir qualquer número e deixar que a função fatorial() resolva seu cálculo.
 
+def fatorial(n):
+    if n == 1:
+        return 1
+    return n * fatorial (n - 1)
+
+valor = int(input("Digite um número: ")
+print(fatorial(valor))
+
+---
 
 ### FUNÇÕES NATIVAS
 
-Há informações extras disponíveis na documentação oficial do Python no site do Python.
+Essas funções que criamos até aqui são chamadas de funções de usuário, uma vez que são criadas pelo programador, que define todas as regras de seu escopo. Existem, entretanto, funções e tipos integrados nativos do próprio Python (Python.org), que podem ser utilizadas a qualquer momento (e algumas até já utilizadas em nossas aulas, como a input() e a print().
+
+Na documentação oficial do Python você encontra uma lista completa de funções nativas, listas em ordem alfabética.
 
 ---
 
 ### TESTANDO FUNÇÕES
+
+Embora existam muitas funções nativas do Python, algumas são, indiscutivelmente, mais utilizadas que outras. Abaixo você encontra uma lista de funções bem interessantes que vale a penas você conhecer e testar:
+
+abs(): retorna o valor absoluto de um número;
+pow(): realiza cálculos de potência;
+next(): retorna o próximo elemento de uma lista iterativa
+hash(): retorna o valor em hash de um objeto
+open(): permite trabalhar com arquivos (veremos isso mais adiante!)
 
 CHAMAR OUTRAS FUNÇÕES DENTRO DA FUNÇÃO: FUNÇÃO RECURSIVA
 
